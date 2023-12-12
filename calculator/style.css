@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@100&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,rgb(48, 25, 25),rgb(9, 5, 5));
+}
+
+.calc{
+    border: 1px solid whitesmoke; 
+    padding: 20px;
+    border-radius: 20px;
+    background:transparent;
+    box-shadow: 5px 5px 10px 5px rgba(92, 89, 89, 0.3);
+}
+
+input{
+    width: 350px;
+    border:none;
+    padding: 2px;
+    margin: 2px;
+    background: transparent;
+    box-shadow:5px 5px 18px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+}
+
+input::placeholder{
+    color:white;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin:10px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow:5px 5px 8px rgba(236, 232, 232, 0.3) ;
+    cursor: pointer;
+}
+
+.equalbtn{
+    background-color: orange;
+}
+
+.oper{
+    color:greenyellow;
+}
